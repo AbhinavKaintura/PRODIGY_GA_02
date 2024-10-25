@@ -56,15 +56,27 @@ Stable Diffusion provided a robust and efficient model for generating images fro
 | ![generated_image_6](https://github.com/user-attachments/assets/e2962cf3-b3c4-4d2c-a6bc-876560518925) | ![generated_image2 0_2](https://github.com/user-attachments/assets/a496a49f-1708-4d88-bdc7-90ebdce1995a)|![generated_image_4](https://github.com/user-attachments/assets/2ae89f05-0b80-431b-aeed-ba19c4b2d963)|
 
 
-## How to Run the Project
+# How to Run the Project
+Follow these steps to clone the repository and run the Stable Diffusion image generation code:
+
+## Prerequisites
+
+Ensure you have the following installed:
+- [Python](https://www.python.org/downloads/) (version 3.7 or higher)
+- [Git](https://git-scm.com/downloads)
+- [CUDA](https://developer.nvidia.com/cuda-downloads) (version compatible with your PyTorch installation) 
+- [NVIDIA GPU Driver](https://www.nvidia.com/Download/index.aspx) (make sure it's compatible with your CUDA version)
+
+## Steps to Start
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/AbhinavKaintura/PRODIGY_GA_02.git
    cd text-to-image-stable-diffusion
-   
-
-
-2. Install the required dependencies
+2. Navigate to the Project Directory: Change into the project directory:
+   ```bash
+   cd PRODIGY_GA_02
+3. Install the required dependencies
 
 To run this project, you'll need the following Python packages:
 
@@ -81,5 +93,6 @@ You can install these dependencies using pip. Here’s the command to install th
    pip install torch torchvision diffusers numpy opencv-python pillow
 
 ```
-3. Run the image generation script
-4. Enter your prompt and specify how many images you'd like to generate. The images will be saved in the current directory with numbered file names.
+4. Run the image generation script
+   
+5. Enter your prompt and specify how many images you'd like to generate. The images will be saved in the current directory with numbered file names.
