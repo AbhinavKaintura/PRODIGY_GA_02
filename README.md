@@ -45,11 +45,23 @@ Stable Diffusion provided a robust and efficient model for generating images fro
 - Generate images quickly using GPU acceleration.
 - Explore different prompts and produce multiple images in batch mode.
 
+  # Generated Images
+
+| Image 1 | Image 2 | Image 3 |
+|---------|---------|---------|
+| ![generated_image_2](https://github.com/user-attachments/assets/38822d23-30f9-4db8-8af8-b37bb7578578) |![generated_image_5](https://github.com/user-attachments/assets/c0522c3e-f1f5-436d-afb0-debdbe200af3) |  ![generated_image2 0_3](https://github.com/user-attachments/assets/10ac0c04-d805-4c6a-a3a9-029414e9e5fe)|
+
+| Image 4 | Image 5 | Image 6 |
+|---------|---------|---------|
+| ![generated_image_6](https://github.com/user-attachments/assets/e2962cf3-b3c4-4d2c-a6bc-876560518925) | ![generated_image2 0_2](https://github.com/user-attachments/assets/a496a49f-1708-4d88-bdc7-90ebdce1995a)|![generated_image_4](https://github.com/user-attachments/assets/2ae89f05-0b80-431b-aeed-ba19c4b2d963)|
+
+
 ## How to Run the Project
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/text-to-image-stable-diffusion.git
    cd text-to-image-stable-diffusion
+
 
 2. Install the required dependencies
 
@@ -67,6 +79,6 @@ You can install these dependencies using pip. Here’s the command to install th
    ```bash
    pip install torch torchvision diffusers numpy opencv-python pillow
 
-
-
-
+```
+3. Run the image generation script
+4. Enter your prompt and specify how many images you'd like to generate. The images will be saved in the current directory with numbered file names.
