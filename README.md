@@ -59,8 +59,9 @@ Stable Diffusion provided a robust and efficient model for generating images fro
 ## How to Run the Project
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/text-to-image-stable-diffusion.git
+   git clone https://github.com/AbhinavKaintura/PRODIGY_GA_02.git
    cd text-to-image-stable-diffusion
+   
 
 
 2. Install the required dependencies
