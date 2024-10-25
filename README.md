@@ -91,8 +91,9 @@ You can install these dependencies using pip. Here’s the command to install th
 
    ```bash
    pip install torch torchvision diffusers numpy opencv-python pillow
-
 ```
 4. Run the image generation script
+   ```bash
+   py task2completed.py ```
    
 5. Enter your prompt and specify how many images you'd like to generate. The images will be saved in the current directory with numbered file names.
