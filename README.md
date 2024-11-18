@@ -1,4 +1,4 @@
-# Text-to-Image Generation Using Stable Diffusion
+# ArtifyAI
 The goal of this project is to use Stable Diffusion, a state-of-the-art text-to-image model, to generate images from descriptive text prompts. The project demonstrates how deep learning models can be used to generate high-quality images based on natural language input, automating creative tasks and exploring the possibilities of AI in art generation.
 
 ## Project Overview
